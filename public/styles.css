@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100dvh;
+  background-color: #282d35;
+  background-image: url(./logo2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: center;
+  background-size: 15rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ NavBar ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav {
+  font-family: sans-serif;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222a;
+}
+
+nav img {
+  width: 60px;
+}
+
+.react-logo {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #61dafb;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.name {
+  color: #deebf8;
+  font-weight: 400;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ MainContent ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+main {
+  width: 60%;
+  margin: auto;
+  color: #ffffff;
+}
+
+main h1 {
+  margin: 4rem 0;
+  font-size: 3rem;
+}
+
+main ul li {
+  margin-left: 4rem;
+  padding: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 2rem;
+}
+
+.half-logo {
+  position: absolute;
+  right: 0;
+  margin-top: -55dvh;
+  width: 15rem;
+}
